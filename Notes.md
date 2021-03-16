@@ -10,3 +10,15 @@
 - No need to pass events up and props down through multiple components
 - Global state is "reactive"
     - update state in one component will update the same state in other components 
+
+# Vuex Terms
+- state
+    - app-level state/data 
+- getters
+    - get pieces of state or computed values from state
+- actions
+    - called from components to commit a mutation
+- mutations
+    - mutate the state (update the data)
+- modules
+    - each module can have its own state, getters, actions and mutations
