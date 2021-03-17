@@ -66,4 +66,25 @@ export default {
             }
         </script>
     ```
-- 
+- mutation
+    - what mutations the state from a particular action 
+- mapActions
+    - brings actions from state into component 
+
+# Vue Lifecycle
+- new Vue()
+- init events and lifecycle
+- before create
+- init injections and reactivity
+- created
+- beforeMount
+- create vue elements 
+- mounted 
+- beforeUpdate
+- virtual DOM re-render 
+- updated
+- destroying vue instance called
+- beforeDestroy
+- teardown vue isntance
+- destroyed
+https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks
