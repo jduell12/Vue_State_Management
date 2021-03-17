@@ -22,3 +22,9 @@
     - mutate the state (update the data)
 - modules
     - each module can have its own state, getters, actions and mutations
+
+
+# Json Placeholder
+- jsonplaceholder.typicode.com 
+- able to placehold/prototype api calls 
+- has various routes available to use to mock responses from an api
