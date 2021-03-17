@@ -28,3 +28,11 @@
 - jsonplaceholder.typicode.com 
 - able to placehold/prototype api calls 
 - has various routes available to use to mock responses from an api
+
+# Application - To dos with State Management
+- Components
+    - Todo
+    - Add_toDo
+    - filter_toDo
+- state management
+    - Vuex
