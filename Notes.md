@@ -55,4 +55,15 @@ export default {
   mutations,
 };
 ```
+- in the component that you're bringing the staet you need to import mapGetters from vuex in the script area
+    - in the computed aspect of the vue instance is where you specify what getters to map into the vue component 
+    ```
+        <script>
+            import { mapGetters } from 'vuex';
+            export default {
+                name: "Todos",
+                computed: mapGetters(['allTodos'])
+            }
+        </script>
+    ```
 - 
