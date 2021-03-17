@@ -36,3 +36,22 @@
     - filter_toDo
 - state management
     - Vuex
+
+# Vuex 
+- boilerplate for module file 
+```
+const state = {};
+
+const getters = {};
+
+const actions = {};
+
+const mutations = {};
+
+export default {
+  state,
+  getters,
+  actions,
+  mutations,
+};
+```
