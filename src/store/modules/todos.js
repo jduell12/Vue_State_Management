@@ -24,6 +24,14 @@ const actions = {
     await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`);
     commit("deleteTodo", id);
   },
+  async filterTodos({ commit }, e) {
+    const res = await axios.get(
+      `https://jsonplaceholder.typicode.com/todos/?_limit=${parseInt(
+        e.target.value,
+      )}`,
+    );
+    commit("setTodos", res.data);
+  },
 };
 
 const mutations = {
