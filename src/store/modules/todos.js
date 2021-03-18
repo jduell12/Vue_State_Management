@@ -25,10 +25,9 @@ const actions = {
     commit("deleteTodo", id);
   },
   async filterTodos({ commit }, e) {
+    const limit = parseInt(e.target.value);
     const res = await axios.get(
-      `https://jsonplaceholder.typicode.com/todos/?_limit=${parseInt(
-        e.target.value,
-      )}`,
+      `https://jsonplaceholder.typicode.com/todos/?_limit=${limit}`,
     );
     commit("setTodos", res.data);
   },
